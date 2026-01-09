@@ -21,11 +21,11 @@ The primary goal is to practice *test first* development and to ensure proper te
 
 ## Features
 
-✔️ Create, Read, Update, Delete (CRUD) endpoints for products  
-✔️ Pytest test suites for models and routes  
-✔️ Gherkin feature files describing behavior scenarios  
-✔️ Automated BDD steps to test behavior through the UI  
-✔️ Test automation integrated with Docker  
+Create, Read, Update, Delete (CRUD) endpoints for products  
+Pytest test suites for models and routes  
+Gherkin feature files describing behavior scenarios  
+Automated BDD steps to test behavior through the UI  
+Test automation integrated with Docker  
 
 ---
 
