@@ -1,11 +1,11 @@
-# 🧪 TDD-BDD Final Project
+# TDD-BDD Final Project
 
 This repository is the final project for the **Introduction to Test-Driven Development (TDD) and Behavior-Driven Development (BDD)** course.  
-It demonstrates how to build a REST API service using TDD and BDD techniques, writing tests before the code and defining behavior with feature scenarios.:contentReference[oaicite:1]{index=1}
+It demonstrates how to build a REST API service using TDD and BDD techniques, writing tests before the code and defining behavior with feature scenarios.
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project contains:
 
@@ -19,7 +19,7 @@ The primary goal is to practice *test first* development and to ensure proper te
 
 ---
 
-## 🚀 Features
+## Features
 
 ✔️ Create, Read, Update, Delete (CRUD) endpoints for products  
 ✔️ Pytest test suites for models and routes  
@@ -29,7 +29,7 @@ The primary goal is to practice *test first* development and to ensure proper te
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ├── bin/
 ├── features/
 │ ├── products.feature
