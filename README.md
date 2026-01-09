@@ -1,49 +1,47 @@
-# TDD / BDD Final Project Template
+# 🧪 TDD-BDD Final Project
 
-This repository contains the template to be used for the Final Project for the Coursera course **Introduction to TDD/BDD**.
+This repository is the final project for the **Introduction to Test-Driven Development (TDD) and Behavior-Driven Development (BDD)** course.  
+It demonstrates how to build a REST API service using TDD and BDD techniques, writing tests before the code and defining behavior with feature scenarios.:contentReference[oaicite:1]{index=1}
 
-## Usage
+---
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+## 📘 Overview
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template. 
+This project contains:
 
-Name your repo: `tdd-bdd-final-project`.
+- A **Flask REST API** for managing products
+- **Unit tests** implemented using Pytest (TDD)
+- **Behavior-driven tests** written in Gherkin syntax (BDD) using `behave`
+- **Selenium** based UI tests to simulate user behavior
+- Docker and setup scripts for development and testing
 
-## Setup
+The primary goal is to practice *test first* development and to ensure proper test coverage through TDD and BDD approaches.:contentReference[oaicite:2]{index=2}
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+---
 
-```bash
-bash bin/setup.sh
-```
+## 🚀 Features
 
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
+✔️ Create, Read, Update, Delete (CRUD) endpoints for products  
+✔️ Pytest test suites for models and routes  
+✔️ Gherkin feature files describing behavior scenarios  
+✔️ Automated BDD steps to test behavior through the UI  
+✔️ Test automation integrated with Docker  
 
-```bash
-exit
-```
+---
 
-## Tasks
-
-In this project you will use good Test Driven Development (TDD) and Behavior Driven Development (BDD) techniques to write TDD test cases, BDD scenarios, and code, updating the following files:
-
-```bash
-tests/test_models.py
-tests/test_routes.py
-service/routes.py
-features/products.feature
-features/steps/load_steps.py
-```
-
-You will be given partial implementations in each of these files to get you started. Use those implementations as examples of the code you should write.
-
-## License
-
-Licensed under the Apache License. See [LICENSE](/LICENSE)
-
-## Author
-
-John Rofrano, Senior Technical Staff Member, DevOps Champion, @ IBM Research
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+## 📁 Repository Structure
+├── bin/
+├── features/
+│ ├── products.feature
+│ └── steps/
+├── service/
+│ ├── models.py
+│ └── routes.py
+├── tests/
+│ ├── test_models.py
+│ └── test_routes.py
+├── Dockerfile
+├── Makefile
+├── requirements.txt
+├── .gitignore
+└── README.md
